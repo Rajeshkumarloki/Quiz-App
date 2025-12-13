@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "question": "Which of the following is not a Java feature?",
+      "options": ["Object-oriented", "Use of pointers", "Portable", "Robust"],
+      "correctAnswer": "Use of pointers",
+      "yourAnswer": null
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to inherit a class in Java?",
+      "options": ["this", "super", "extends", "implements"],
+      "correctAnswer": "extends",
+      "yourAnswer": null
+    },
+    {
+      "id": 3,
+      "question": "Which of these is a valid data type in Java?",
+      "options": ["number", "int", "floatnum", "real"],
+      "correctAnswer": "int",
+      "yourAnswer": null
+    },
+    {
+      "id": 4,
+      "question": "Which method is called when an object is created in Java?",
+      "options": ["create()", "constructor", "start()", "main()"],
+      "correctAnswer": "constructor",
+      "yourAnswer": null
+    },
+    {
+      "id": 5,
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": ["true", "false", "0", "null"],
+      "correctAnswer": "false",
+      "yourAnswer": null
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is used to handle exceptions in Java?",
+      "options": ["goto", "try-catch", "final", "error-handle"],
+      "correctAnswer": "try-catch",
+      "yourAnswer": null
+    },
+    {
+      "id": 7,
+      "question": "Which package is automatically imported in every Java program?",
+      "options": ["java.util", "java.io", "java.lang", "java.net"],
+      "correctAnswer": "java.lang",
+      "yourAnswer": null
+    },
+    {
+      "id": 8,
+      "question": "Which keyword is used to prevent inheritance of a class?",
+      "options": ["static", "final", "private", "protected"],
+      "correctAnswer": "final",
+      "yourAnswer": null
+    },
+    {
+      "id": 9,
+      "question": "What is the size of an int data type in Java?",
+      "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+      "correctAnswer": "32 bits",
+      "yourAnswer": null
+    },
+    {
+      "id": 10,
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["start()", "run()", "main()", "init()"],
+      "correctAnswer": "main()",
+      "yourAnswer": null
+    }
+  ]
+  

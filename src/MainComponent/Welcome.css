@@ -1,0 +1,84 @@
+/* Full screen welcome layout */
+.welcome {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Content section */
+.welcome section {
+  background: #ffffff;
+  padding: 3rem 3.5rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.8s ease;
+}
+
+/* Heading */
+.welcome h1 {
+  font-size: 2.2rem;
+  color: #2575fc;
+  margin-bottom: 1.5rem;
+}
+
+/* Start Quiz button */
+.welcome button {
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+.welcome button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(37, 117, 252, 0.45);
+}
+
+/* Button active */
+.welcome button:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.3);
+}
+
+/* Remove link underline */
+.welcome a {
+  text-decoration: none;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .welcome section {
+    padding: 2.2rem;
+  }
+
+  .welcome h1 {
+    font-size: 1.7rem;
+  }
+
+  .welcome button {
+    padding: 0.7rem 1.8rem;
+    font-size: 1rem;
+  }
+}

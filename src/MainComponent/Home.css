@@ -1,0 +1,90 @@
+/* General page setup */
+.home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation bar */
+.home nav {
+  width: 100%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* QUIZ APP heading */
+.home nav h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin: 0;
+  transition: transform 0.3s ease;
+}
+
+.home nav h1:hover {
+  transform: scale(1.05);
+}
+
+/* Button section */
+.home nav div:last-child {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Buttons */
+.home nav button {
+  background-color: #fff;
+  color: #2575fc;
+  border: none;
+  padding: 0.6rem 1.3rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home nav button:hover {
+  background-color: #2575fc;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+}
+
+/* Remove default link styles */
+.home a {
+  text-decoration: none;
+}
+
+/* Page content (Outlet area) */
+.home > :not(nav) {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .home nav {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .home nav h1 {
+    font-size: 1.5rem;
+  }
+
+  .home nav button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}

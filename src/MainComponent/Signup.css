@@ -1,0 +1,83 @@
+/* Full page center layout */
+.Signup {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+/* Signup form card */
+.Signup form {
+  background: #ffffff;
+  padding: 2.8rem 3.2rem;
+  width: 100%;
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* Heading */
+.Signup h1 {
+  text-align: center;
+  color: #2575fc;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Input fields */
+.Signup input {
+  padding: 0.85rem 1.1rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 1.5px solid #ddd;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* Input focus */
+.Signup input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 0 2px rgba(37, 117, 252, 0.2);
+}
+
+/* Submit button */
+.Signup input[type="submit"] {
+  margin-top: 0.8rem;
+  padding: 0.85rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Submit hover */
+.Signup input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(37, 117, 252, 0.4);
+}
+
+/* Submit active */
+.Signup input[type="submit"]:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(37, 117, 252, 0.3);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .Signup form {
+    padding: 2.2rem;
+  }
+
+  .Signup h1 {
+    font-size: 1.5rem;
+  }
+}
