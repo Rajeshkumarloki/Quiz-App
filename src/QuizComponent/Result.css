@@ -1,9 +1,9 @@
-/* Result page background */
+/*quiz result page background*/
 body {
   background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
 }
 
-/* Individual result card */
+/*result card*/
 .result {
   max-width: 800px;
   margin: 1.5rem auto;
@@ -13,7 +13,7 @@ body {
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.15);
 }
 
-/* Question text */
+/*question text*/
 .result p {
   font-size: 1.1rem;
   font-weight: 600;
@@ -21,7 +21,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Options container */
+/*options container*/
 .result > div {
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Option row */
+/*Option row*/
 .result > div div {
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
   background: #f5f7fa;
 }
 
-/* Radio button */
+/*Radio button*/
 .result input[type="radio"] {
   accent-color: #2575fc;
 }
@@ -50,21 +50,21 @@ body {
   color: #333;
 }
 
-/* Correct answer */
+/*Correct answer*/
 .result h5 {
   color: #2e7d32;
   font-size: 0.95rem;
   margin-top: 0.6rem;
 }
 
-/* Your answer */
+/*Your answer*/
 .result h4 {
   color: #c62828;
   font-size: 1rem;
   margin-top: 0.3rem;
 }
 
-/* Responsive */
+/*responsive*/
 @media (max-width: 768px) {
   .result {
     margin: 1rem;
