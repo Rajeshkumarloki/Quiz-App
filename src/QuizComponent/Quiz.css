@@ -1,4 +1,4 @@
-/* Full page layout */
+/*full page layout*/
 .Quiz {
   width: 100%;
   min-height: 100vh;
@@ -8,7 +8,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* Header */
+/*header*/
 .Quiz header {
   background: linear-gradient(90deg, #6a11cb, #2575fc);
   color: #fff;
@@ -29,7 +29,7 @@
   color: #fff;
 }
 
-/* Main content */
+/*main content*/
 .Quiz main {
   flex: 1;
   max-width: 800px;
@@ -44,14 +44,14 @@
   gap: 1.5rem;
 }
 
-/* Question */
+/*question*/
 .Quiz main > div:first-child {
   font-size: 1.2rem;
   font-weight: 600;
   color: #333;
 }
 
-/* Options */
+/*options*/
 .Quiz main > div:nth-child(2) {
   display: flex;
   flex-direction: column;
@@ -73,19 +73,19 @@
   background: #e8edff;
 }
 
-/* Radio buttons */
+/*radio buttons*/
 .Quiz input[type="radio"] {
   accent-color: #2575fc;
   cursor: pointer;
 }
 
-/* Option label */
+/*option label*/
 .Quiz label {
   cursor: pointer;
   font-size: 1rem;
 }
 
-/* Question number buttons */
+/*question number buttons*/
 .Quiz main > div:nth-child(3) {
   display: flex;
   flex-wrap: wrap;
@@ -110,7 +110,7 @@
   color: #fff;
 }
 
-/* Footer */
+/*footer*/
 .Quiz footer {
   background: #ffffff;
   padding: 1.2rem 2.5rem;
@@ -120,7 +120,7 @@
   box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer buttons */
+/*footer buttons*/
 .Quiz footer button {
   padding: 0.6rem 1.6rem;
   border-radius: 30px;
@@ -133,18 +133,18 @@
   transition: all 0.3s ease;
 }
 
-/* Footer hover */
+/*footer hover*/
 .Quiz footer button:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(37, 117, 252, 0.4);
 }
 
-/* Submit button spacing */
+/*submit button spacing*/
 .Quiz footer a {
   text-decoration: none;
 }
 
-/* Mobile responsive */
+/*mobile responsive*/
 @media (max-width: 768px) {
   .Quiz main {
     margin: 1.2rem;
